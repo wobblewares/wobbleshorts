@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55715609465a749078fe9efe506fc710, type: 3}
+  m_Name: Newspaper_Graph
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 1274472100499292160
+  - rid: 1274472100499292161
+  - rid: 1274472100499292162
+  - rid: 1274472100499292163
+  - rid: 1274472100499292164
+  - rid: 1274472100499292165
+  - rid: 1274472100499292166
+  - rid: 1274472100499292167
+  - rid: 1274472100499292168
+  - rid: 1274472100499292169
+  edges:
+  - GUID: e8a645be-63c5-4b1f-98e9-c0212b1d020a
+    owner: {fileID: 11400000}
+    inputNodeGUID: dd115f65-b4e7-4d0d-87f3-435cb2410009
+    outputNodeGUID: decc6449-b12e-4cf3-9bc6-5fe338de4db7
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: -599.5, y: -340.5, z: 0}
+  scale: {x: 1.520875, y: 1.520875, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1274472100499292160
+      type: {class: StartNode, ns: NodeGraphProcessor.Examples, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: decc6449-b12e-4cf3-9bc6-5fe338de4db7
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: -184.21739
+          y: 390
+          width: 88
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+    - rid: 1274472100499292161
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: dd115f65-b4e7-4d0d-87f3-435cb2410009
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: -7.2173843
+          y: 391.5
+          width: 193
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 504fe1ba318d54901a19b3c8038260db, type: 3}
+        loop: 1
+        duration: 3
+    - rid: 1274472100499292162
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: ee0d2c77-fe55-43e6-bc9a-8e96f438ef39
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 1514.9342
+          y: 390.00003
+          width: 193
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 4fa3203293f0b44a6b1f40c123ebb4f1, type: 3}
+        loop: 0
+        duration: 1
+    - rid: 1274472100499292163
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 14dd8150-19f8-452e-b69a-34e2c8f81c61
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 1220.4342
+          y: 388.50003
+          width: 193
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: bec38efe7020f41d29cff9b37306de75, type: 3}
+        loop: 0
+        duration: 3
+    - rid: 1274472100499292164
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 1fc17cb9-7263-4fbe-b59f-cc72339aff37
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: 1795.4342
+          y: 390.00003
+          width: 193
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 332a13b66a54d4bdfa87773ae3ff1a9f, type: 3}
+        loop: 1
+        duration: 1
+    - rid: 1274472100499292165
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: cf4f1f55-2c2a-4537-b70b-bc6056015281
+        computeOrder: 5
+        position:
+          serializedVersion: 2
+          x: 2112.434
+          y: 390.00003
+          width: 193
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: f423d0e4e584e45ceb4d328bbb081539, type: 3}
+        loop: 0
+        duration: 1
+    - rid: 1274472100499292166
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: edda65b0-e82f-4013-a04a-6ae8152f6d06
+        computeOrder: 6
+        position:
+          serializedVersion: 2
+          x: 2429.434
+          y: 390.00003
+          width: 193
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 9201328ce634d41bca441505c70f550a, type: 3}
+        loop: 1
+        duration: 5
+    - rid: 1274472100499292167
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 268929a9-2c3e-489b-bd87-1ae7c44c8c72
+        computeOrder: 7
+        position:
+          serializedVersion: 2
+          x: 629
+          y: 390.00003
+          width: 193
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 8293a34b863444fb2bf86e435bff8d02, type: 3}
+        loop: 0
+        duration: 3
+    - rid: 1274472100499292168
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 66c8e493-1d3f-43f8-9264-a637ee2a9967
+        computeOrder: 8
+        position:
+          serializedVersion: 2
+          x: 280.80435
+          y: 390
+          width: 193
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 7dc9e8f0a8e754b9d8c7866e1e192098, type: 3}
+        loop: 0
+        duration: 1
+    - rid: 1274472100499292169
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 88e26303-298b-4afc-8465-21e5747096e0
+        computeOrder: 9
+        position:
+          serializedVersion: 2
+          x: 927
+          y: 390.00003
+          width: 193
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 5fc27f097849144aaa5e565b7cc95502, type: 3}
+        loop: 1
+        duration: 3

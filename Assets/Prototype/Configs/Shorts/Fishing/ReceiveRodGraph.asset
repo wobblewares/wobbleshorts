@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55715609465a749078fe9efe506fc710, type: 3}
+  m_Name: ReceiveRodGraph
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 1274472060576858194
+  - rid: 1274472060576858195
+  - rid: 7562672064334135312
+  - rid: 7562672064334135314
+  edges:
+  - GUID: 71c24ae6-30ed-49d5-8454-654cd4e151d4
+    owner: {fileID: 11400000}
+    inputNodeGUID: ebe55bca-8971-4628-bdb3-38c061ae0630
+    outputNodeGUID: 444aeabe-408b-417e-b642-d47b5d13cce4
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 48a457cd-b1ab-473e-a75e-294d049a4b57
+    owner: {fileID: 11400000}
+    inputNodeGUID: f2f2d126-f5d3-4518-bc8d-b428c8b75532
+    outputNodeGUID: ebe55bca-8971-4628-bdb3-38c061ae0630
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0e88af22-347d-48f0-9a4b-19f1905dd9bb
+    owner: {fileID: 11400000}
+    inputNodeGUID: 96169b79-83f2-4736-88f7-a77ade923a06
+    outputNodeGUID: f2f2d126-f5d3-4518-bc8d-b428c8b75532
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: -145, y: -21, z: 0}
+  scale: {x: 1.15, y: 1.15, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1274472060576858194
+      type: {class: StartNode, ns: NodeGraphProcessor.Examples, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 444aeabe-408b-417e-b642-d47b5d13cce4
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 200
+          y: 236.5
+          width: 88
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+    - rid: 1274472060576858195
+      type: {class: SetStateNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: f2f2d126-f5d3-4518-bc8d-b428c8b75532
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 774.34784
+          y: 236.50002
+          width: 170
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        accountConfig: {fileID: 11400000, guid: ecb2876dbd0da4f7c810de8f662f0759, type: 2}
+        stateConfig: {fileID: 11400000, guid: 3204abb3dddcb43eb84fa00282554d2e, type: 2}
+        value: 1
+    - rid: 7562672064334135312
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: ebe55bca-8971-4628-bdb3-38c061ae0630
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 415.34784
+          y: 236.50002
+          width: 170
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: e4580fa308b9d4fb28da440997f29351, type: 3}
+        loop: 1
+        duration: 3
+    - rid: 7562672064334135314
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 96169b79-83f2-4736-88f7-a77ade923a06
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 1104.5
+          y: 236.5
+          width: 170
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: ef3452a3e6a7a4f67833d722055a646a, type: 3}
+        loop: 1
+        duration: 1
