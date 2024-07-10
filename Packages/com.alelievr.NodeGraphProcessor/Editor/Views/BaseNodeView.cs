@@ -32,7 +32,7 @@ namespace GraphProcessor
 		protected VisualElement					rightTitleContainer;
 		protected VisualElement					topPortContainer;
 		protected VisualElement					bottomPortContainer;
-		private VisualElement 					inputContainerElement;
+		protected VisualElement 				inputContainerElement;
 
 		VisualElement							settings;
 		NodeSettingsView						settingsContainer;
