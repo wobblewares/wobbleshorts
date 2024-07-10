@@ -262,6 +262,12 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.wobblewares.kit": {
+      "version": "file:/Users/ian/Documents/wobblewares/wobbleassets/wobblekit/com.wobblewares.kit/package",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
