@@ -17,7 +17,6 @@ MonoBehaviour:
   - rid: 1274472060576858194
   - rid: 1274472060576858195
   - rid: 7562672064334135312
-  - rid: 7562672064334135314
   edges:
   - GUID: 71c24ae6-30ed-49d5-8454-654cd4e151d4
     owner: {fileID: 11400000}
@@ -35,14 +34,6 @@ MonoBehaviour:
     outputFieldName: executes
     inputPortIdentifier: 
     outputPortIdentifier: 
-  - GUID: 0e88af22-347d-48f0-9a4b-19f1905dd9bb
-    owner: {fileID: 11400000}
-    inputNodeGUID: 96169b79-83f2-4736-88f7-a77ade923a06
-    outputNodeGUID: f2f2d126-f5d3-4518-bc8d-b428c8b75532
-    inputFieldName: executed
-    outputFieldName: executes
-    inputPortIdentifier: 
-    outputPortIdentifier: 
   groups: []
   stackNodes: []
   pinnedElements: []
@@ -50,8 +41,8 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: -145, y: -21, z: 0}
-  scale: {x: 1.15, y: 1.15, z: 1}
+  position: {x: -692.5, y: -111.5, z: 0}
+  scale: {x: 2, y: 2, z: 1}
   references:
     version: 2
     RefIds:
@@ -103,24 +94,6 @@ MonoBehaviour:
         expanded: 0
         debug: 0
         nodeLock: 0
-        clip: {fileID: 32900000, guid: e4580fa308b9d4fb28da440997f29351, type: 3}
+        clip: {fileID: 32900000, guid: bf0bfc9d57cbf4e6cacb9fe3cd0d5e43, type: 3}
         loop: 1
-        duration: 3
-    - rid: 7562672064334135314
-      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
-      data:
-        nodeCustomName: 
-        GUID: 96169b79-83f2-4736-88f7-a77ade923a06
-        computeOrder: 3
-        position:
-          serializedVersion: 2
-          x: 1104.5
-          y: 236.5
-          width: 170
-          height: 147
-        expanded: 0
-        debug: 0
-        nodeLock: 0
-        clip: {fileID: 32900000, guid: ef3452a3e6a7a4f67833d722055a646a, type: 3}
-        loop: 1
-        duration: 1
+        duration: 5
