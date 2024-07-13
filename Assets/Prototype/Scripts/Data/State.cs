@@ -5,6 +5,6 @@ namespace WobbleShorts
     public class State
     {
         public string Identifier;
-        public object Value;
+        public bool Value;
     }
 }

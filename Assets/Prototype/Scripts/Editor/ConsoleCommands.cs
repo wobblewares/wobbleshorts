@@ -70,10 +70,20 @@ namespace WobbleShorts
         }
 
         [Command("state")]
-        public static void ShowStateDetails([State] State? state)
+        public static void ShowStateDetails([State] State? state, string? value = null)
         {
-            if (state is {} s)
-                Debug.Log($"State {s.Identifier} = {s.Value}");
+            if (state is not {} s)
+            {
+                Debug.LogError("State must not be null.");
+                return;
+            }
+
+            if (value is {} val && bool.TryParse(val, out bool result))
+            {
+                s.Value = result;
+            } 
+            
+            Debug.Log($"State {s.Identifier} = {s.Value}");
         }
 
         [Command("postShort")]
@@ -82,6 +92,7 @@ namespace WobbleShorts
             if (account != null && config != null) {
                 var @short = config.Create(account.Value);
                 App.Post(@short);
+                App.Show(@short);
             }
         }
 
