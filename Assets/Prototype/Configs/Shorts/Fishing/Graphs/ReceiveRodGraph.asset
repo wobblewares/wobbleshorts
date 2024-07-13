@@ -41,8 +41,8 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: -692.5, y: -111.5, z: 0}
-  scale: {x: 2, y: 2, z: 1}
+  position: {x: -339.5, y: 62.5, z: 0}
+  scale: {x: 1.520875, y: 1.520875, z: 1}
   references:
     version: 2
     RefIds:
@@ -94,6 +94,6 @@ MonoBehaviour:
         expanded: 0
         debug: 0
         nodeLock: 0
-        clip: {fileID: 32900000, guid: bf0bfc9d57cbf4e6cacb9fe3cd0d5e43, type: 3}
+        clip: {fileID: 32900000, guid: b0cce1afa549e41c2ac85368f8b8fbfd, type: 3}
         loop: 1
         duration: 5
