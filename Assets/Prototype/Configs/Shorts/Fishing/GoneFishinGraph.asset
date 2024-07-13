@@ -20,43 +20,124 @@ MonoBehaviour:
   - rid: 7562672064334135298
   - rid: 7562672064334135300
   - rid: 7562672064334135301
+  - rid: 7562672110796800003
+  - rid: 7562672110796800005
+  - rid: 7562672110796800006
+  - rid: 7562672110796800008
+  - rid: 7562672110796800010
+  - rid: 7562672110796800011
+  - rid: 7562672110796800013
+  - rid: 7562672110796800014
+  - rid: 7562672110796800016
   edges:
-  - GUID: 45995519-5972-46a9-b910-c15f93bd3f47
+  - GUID: bf17abdb-ed90-42bc-83e3-57507aa02382
+    owner: {fileID: 11400000}
+    inputNodeGUID: 53d376c4-94bb-45ef-99a0-ec1ed48a6858
+    outputNodeGUID: 7890965b-7eee-4277-9d24-14a426c7b7f9
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: d6dbcc61-0cc3-4bb2-9eac-25699d3d88be
+    owner: {fileID: 11400000}
+    inputNodeGUID: 728ebfe1-362a-4e99-992d-ea2d1d87cb6c
+    outputNodeGUID: 6a5e9fb9-adcc-4430-8fce-9c695aa31362
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 50fb5d5d-a8aa-4fec-8785-3081615f818e
     owner: {fileID: 11400000}
     inputNodeGUID: 6a5e9fb9-adcc-4430-8fce-9c695aa31362
-    outputNodeGUID: 6d5aa8d5-8cc0-4ed6-8da3-7cc084fa1c85
+    outputNodeGUID: 698da925-757d-4c80-af97-d39674587a47
     inputFieldName: executed
     outputFieldName: executes
     inputPortIdentifier: 
     outputPortIdentifier: 
-  - GUID: 807fa98b-29b8-41d2-a7f1-d44bc2e5c6fa
+  - GUID: 7e438928-e9ab-4a2c-bc8e-173a4a928d51
     owner: {fileID: 11400000}
-    inputNodeGUID: db0fdc21-311a-4f31-93e3-559bf7b5f660
-    outputNodeGUID: b05352a1-c2a6-44fb-9abd-61dcc63bcc6b
-    inputFieldName: executed
-    outputFieldName: executes
-    inputPortIdentifier: 
-    outputPortIdentifier: 
-  - GUID: a323e702-7776-421d-8eb1-48954cc151f9
-    owner: {fileID: 11400000}
-    inputNodeGUID: 09dfebb1-c6f3-4d63-a8d0-f13248cc5e76
-    outputNodeGUID: db0fdc21-311a-4f31-93e3-559bf7b5f660
-    inputFieldName: executed
-    outputFieldName: false
-    inputPortIdentifier: 
-    outputPortIdentifier: 
-  - GUID: 77248eb2-0ec9-4006-8695-8064cbeeed1d
-    owner: {fileID: 11400000}
-    inputNodeGUID: babc8062-6c8a-4764-9c6f-2e6bb701e35b
+    inputNodeGUID: 698da925-757d-4c80-af97-d39674587a47
     outputNodeGUID: db0fdc21-311a-4f31-93e3-559bf7b5f660
     inputFieldName: executed
     outputFieldName: true
     inputPortIdentifier: 
     outputPortIdentifier: 
-  - GUID: 6ee12768-c6dc-4a64-95ad-d7730b49e87d
+  - GUID: 2dcf02c6-2ae9-4e4c-bf82-2140ce57e31d
+    owner: {fileID: 11400000}
+    inputNodeGUID: db0fdc21-311a-4f31-93e3-559bf7b5f660
+    outputNodeGUID: 6d5aa8d5-8cc0-4ed6-8da3-7cc084fa1c85
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 1a1ff2de-7976-478a-b5a3-647839f0c9a8
+    owner: {fileID: 11400000}
+    inputNodeGUID: 2dd7e076-68e5-4f11-964a-1af9fa45e418
+    outputNodeGUID: 09dfebb1-c6f3-4d63-a8d0-f13248cc5e76
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 6d68ca3c-695a-4cb6-8867-651362e07336
+    owner: {fileID: 11400000}
+    inputNodeGUID: 14ced887-11f0-418e-a064-7f2cd22b91a6
+    outputNodeGUID: 2dd7e076-68e5-4f11-964a-1af9fa45e418
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ba9d5e7a-551f-4046-92f9-7fbdf8418e5d
+    owner: {fileID: 11400000}
+    inputNodeGUID: 0a045ab1-eb61-4487-a885-0a1cf46bf80f
+    outputNodeGUID: babc8062-6c8a-4764-9c6f-2e6bb701e35b
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: f8ebd709-d795-482d-86a6-682ff448d0e4
+    owner: {fileID: 11400000}
+    inputNodeGUID: babc8062-6c8a-4764-9c6f-2e6bb701e35b
+    outputNodeGUID: b05352a1-c2a6-44fb-9abd-61dcc63bcc6b
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: b9a8c177-da28-44cf-832d-2e2973260cc8
+    owner: {fileID: 11400000}
+    inputNodeGUID: de1e7b10-d5bf-4c85-8f05-cc8dcf19305c
+    outputNodeGUID: 0a045ab1-eb61-4487-a885-0a1cf46bf80f
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 5c62c1fa-ddf0-418d-9d8a-f691ed41fa98
     owner: {fileID: 11400000}
     inputNodeGUID: 6d5aa8d5-8cc0-4ed6-8da3-7cc084fa1c85
-    outputNodeGUID: babc8062-6c8a-4764-9c6f-2e6bb701e35b
+    outputNodeGUID: de1e7b10-d5bf-4c85-8f05-cc8dcf19305c
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ef6e7038-0000-4e14-b4f0-979bc8f62388
+    owner: {fileID: 11400000}
+    inputNodeGUID: 2828d905-6abf-4b59-bf5d-80b59612c71b
+    outputNodeGUID: db0fdc21-311a-4f31-93e3-559bf7b5f660
+    inputFieldName: executed
+    outputFieldName: false
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 4c6c0f83-7f42-4105-aea0-dc534d5e04da
+    owner: {fileID: 11400000}
+    inputNodeGUID: 09dfebb1-c6f3-4d63-a8d0-f13248cc5e76
+    outputNodeGUID: 2828d905-6abf-4b59-bf5d-80b59612c71b
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 80c42f78-46d4-45dd-873a-40721b7de1b1
+    owner: {fileID: 11400000}
+    inputNodeGUID: 7890965b-7eee-4277-9d24-14a426c7b7f9
+    outputNodeGUID: 728ebfe1-362a-4e99-992d-ea2d1d87cb6c
     inputFieldName: executed
     outputFieldName: executes
     inputPortIdentifier: 
@@ -78,8 +159,8 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: 962, y: 632.5, z: 0}
-  scale: {x: 0.8695652, y: 0.8695652, z: 1}
+  position: {x: -1974, y: 670.5, z: 0}
+  scale: {x: 2, y: 2, z: 1}
   references:
     version: 2
     RefIds:
@@ -91,8 +172,8 @@ MonoBehaviour:
         computeOrder: 0
         position:
           serializedVersion: 2
-          x: -733.15015
-          y: -382.65005
+          x: -1237.8503
+          y: -320
           width: 88
           height: 75
         expanded: 0
@@ -103,11 +184,11 @@ MonoBehaviour:
       data:
         nodeCustomName: 
         GUID: db0fdc21-311a-4f31-93e3-559bf7b5f660
-        computeOrder: 1
+        computeOrder: 5
         position:
           serializedVersion: 2
-          x: -455.15012
-          y: -382.65005
+          x: 208.82611
+          y: -328.8043
           width: 149.5
           height: 147
         expanded: 0
@@ -121,37 +202,37 @@ MonoBehaviour:
       data:
         nodeCustomName: 
         GUID: 09dfebb1-c6f3-4d63-a8d0-f13248cc5e76
-        computeOrder: 2
+        computeOrder: 7
         position:
           serializedVersion: 2
-          x: -181.5
-          y: -212
+          x: 1179
+          y: -182.00002
           width: 190
           height: 175
         expanded: 0
         debug: 0
         nodeLock: 0
-        clip: {fileID: 32900000, guid: e4580fa308b9d4fb28da440997f29351, type: 3}
-        loop: 1
+        clip: {fileID: 32900000, guid: c07d0728520074880afe885faa0d7bb2, type: 3}
+        loop: 0
         duration: 5
     - rid: 7562672064334135298
       type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
       data:
         nodeCustomName: 
         GUID: babc8062-6c8a-4764-9c6f-2e6bb701e35b
-        computeOrder: 3
+        computeOrder: 1
         position:
           serializedVersion: 2
-          x: -181.65009
-          y: -457.6501
+          x: -1049.3503
+          y: -320
           width: 190
           height: 175
         expanded: 0
         debug: 0
         nodeLock: 0
-        clip: {fileID: 32900000, guid: ef3452a3e6a7a4f67833d722055a646a, type: 3}
+        clip: {fileID: 32900000, guid: 90abaa72ad0734b368938b446382685c, type: 3}
         loop: 1
-        duration: 3
+        duration: 2
     - rid: 7562672064334135300
       type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
       data:
@@ -160,31 +241,193 @@ MonoBehaviour:
         computeOrder: 4
         position:
           serializedVersion: 2
-          x: 139.84995
-          y: -457.6501
+          x: -151.09999
+          y: -320.00015
           width: 190
           height: 175
         expanded: 1
         debug: 0
         nodeLock: 0
-        clip: {fileID: 32900000, guid: 34e05630aac11404fb24a037493efa12, type: 3}
-        loop: 0
-        duration: 5
+        clip: {fileID: 32900000, guid: c18c09c91f2b74e69b0b87c1b3ec5efe, type: 3}
+        loop: 1
+        duration: 1.5
     - rid: 7562672064334135301
       type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
       data:
         nodeCustomName: 
         GUID: 6a5e9fb9-adcc-4430-8fce-9c695aa31362
-        computeOrder: 5
+        computeOrder: 9
         position:
           serializedVersion: 2
-          x: 436.84998
-          y: -457.6501
+          x: 828.67255
+          y: -457.49997
           width: 190
           height: 175
         expanded: 0
         debug: 0
         nodeLock: 0
-        clip: {fileID: 32900000, guid: 16e133c01e59940cf88a1028d3a088fa, type: 3}
+        clip: {fileID: 32900000, guid: 5164a0681fa834456a199902cdb72a2a, type: 3}
+        loop: 0
+        duration: 5
+    - rid: 7562672110796800003
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 698da925-757d-4c80-af97-d39674587a47
+        computeOrder: 8
+        position:
+          serializedVersion: 2
+          x: 493.24252
+          y: -457.50006
+          width: 170
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: f995c039fe4dc4e0b91033b4bfa91ea1, type: 3}
+        loop: 1
+        duration: 2
+    - rid: 7562672110796800005
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 53d376c4-94bb-45ef-99a0-ec1ed48a6858
+        computeOrder: 12
+        position:
+          serializedVersion: 2
+          x: 1777.1726
+          y: -457.49997
+          width: 190
+          height: 175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 5e52ef66a50bb4dbebafcdf55c95ae22, type: 3}
         loop: 1
         duration: 5
+    - rid: 7562672110796800006
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 7890965b-7eee-4277-9d24-14a426c7b7f9
+        computeOrder: 11
+        position:
+          serializedVersion: 2
+          x: 1466.6726
+          y: -457.49997
+          width: 190
+          height: 175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: e572a47fb1f8149a39de829b0dfaad8a, type: 3}
+        loop: 0
+        duration: 5
+    - rid: 7562672110796800008
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 728ebfe1-362a-4e99-992d-ea2d1d87cb6c
+        computeOrder: 10
+        position:
+          serializedVersion: 2
+          x: 1179.1726
+          y: -457.49997
+          width: 190
+          height: 175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 99f45b9e05287463e9d96e6b5937ba9c, type: 3}
+        loop: 1
+        duration: 1
+    - rid: 7562672110796800010
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 2dd7e076-68e5-4f11-964a-1af9fa45e418
+        computeOrder: 13
+        position:
+          serializedVersion: 2
+          x: 1466.5
+          y: -182.00002
+          width: 190
+          height: 175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 8a039f7890362457faf1af32569d8605, type: 3}
+        loop: 1
+        duration: 1
+    - rid: 7562672110796800011
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 14ced887-11f0-418e-a064-7f2cd22b91a6
+        computeOrder: 14
+        position:
+          serializedVersion: 2
+          x: 1777
+          y: -182
+          width: 190
+          height: 175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 565a407068b7e44c8871494bd58e2501, type: 3}
+        loop: 1
+        duration: 5
+    - rid: 7562672110796800013
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 0a045ab1-eb61-4487-a885-0a1cf46bf80f
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: -771.3503
+          y: -320
+          width: 190
+          height: 175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 3b39ba2b5baba43cbb071425a3e09012, type: 3}
+        loop: 1
+        duration: 2
+    - rid: 7562672110796800014
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: de1e7b10-d5bf-4c85-8f05-cc8dcf19305c
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: -462.55026
+          y: -320
+          width: 190
+          height: 175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: 6f625ad15b4dc4093ae53af33c0cec44, type: 3}
+        loop: 1
+        duration: 2
+    - rid: 7562672110796800016
+      type: {class: PlayClipVideoNode, ns: WobbleShorts, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 2828d905-6abf-4b59-bf5d-80b59612c71b
+        computeOrder: 6
+        position:
+          serializedVersion: 2
+          x: 848.4999
+          y: -182
+          width: 170
+          height: 147
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        clip: {fileID: 32900000, guid: f995c039fe4dc4e0b91033b4bfa91ea1, type: 3}
+        loop: 1
+        duration: 0.5

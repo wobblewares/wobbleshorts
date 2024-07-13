@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f040299d1a34204bc83a6d723ae593d, type: 3}
   m_Name: GoneFishin
   m_EditorClassIdentifier: 
-  _title: GoneFishin'
-  _description: Went fishing today. Watch to the end to find out what I caught (if
-    anything, haha!)
+  _title: GoneFishin
+  _description: I'm fishin` everyday. Watch to the end to find out what I caught.
   _tags:
   - fish
   - water
+  - reflexes
   _requirements:
   - state: {fileID: 11400000, guid: 3204abb3dddcb43eb84fa00282554d2e, type: 2}
     account: {fileID: 11400000, guid: ecb2876dbd0da4f7c810de8f662f0759, type: 2}

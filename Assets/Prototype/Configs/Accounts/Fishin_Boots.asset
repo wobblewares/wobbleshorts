@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74586013a60b64f3f9ada1e3d60fb281, type: 3}
-  m_Name: FishingSociety
+  m_Name: Fishin_Boots
   m_EditorClassIdentifier: 
-  _accountName: FishingSociety
+  _accountName: fishing_boots
   _description: Bringing you all your fishing news, videos etc.
-  _clipConfigs:
-  - {fileID: 11400000, guid: 7c4f16dbbc6424fb78bceffb431d02b0, type: 2}
-  - {fileID: 11400000, guid: 8017db214ded54e05a27ad682a575b89, type: 2}
   _stateConfigs:
   - {fileID: 11400000, guid: 3204abb3dddcb43eb84fa00282554d2e, type: 2}
+  shortConfigs:
+  - {fileID: 11400000, guid: 7c4f16dbbc6424fb78bceffb431d02b0, type: 2}
+  - {fileID: 11400000, guid: 8017db214ded54e05a27ad682a575b89, type: 2}
