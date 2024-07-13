@@ -1,7 +1,9 @@
 #nullable enable
 
+using GraphProcessor;
 using Sirenix.OdinInspector;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 namespace WobbleShorts
@@ -32,6 +34,14 @@ namespace WobbleShorts
 
         [Title("Graph")]
         [SerializeField] private ShortGraph _graph = null!;
+
+#if UNITY_EDITOR
+        [EnableIf(nameof(ValidateGraph))]
+        [Button(ButtonSizes.Small, Name = "Edit Graph")]
+        void EditGraph() => EditorWindow.GetWindow<ShortGraphWindow>().InitializeGraph(_graph);
+#endif        
+
+        bool ValidateGraph() => _graph != null;
         public ShortGraph Graph => _graph;
         
         public enum Status
